@@ -1,0 +1,130 @@
+@import "variables";
+@import "desayuno";
+@import "donahoy";
+@import "contacto";
+@import "inicio";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: $violeta;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+
+    a img {
+    width: 100px;
+    margin: 20%; 
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 5%;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+ul {
+    list-style: none;
+    li {
+        display: inline-flex;
+        padding: 0px 20px;
+    }
+}
+
+a {
+    color: $blanco;
+    text-decoration: none;
+}
+
+/* Todos las secciones de las paginas */
+
+.title1 {
+    color: $blanco;
+}
+
+.title3 {
+    color: $violeta;
+}
+
+.title4 {
+    color: $blanco;
+    background-color: $naranja;
+    height: 100px;
+    text-align: center;
+}
+
+.divsection2 {
+    background-color: $violeta-claro;
+    display: inline-block;
+    
+    img {
+    margin-top: 10px;
+    width: 90%;
+    }
+}
+
+.divseccion3 {
+    background-color: $gis;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    img {
+        width: 200px;
+        padding:  30px;
+    }
+}
+
+.aseccion1 {
+    font-weight: bold;
+}
+
+.divinputs {
+    margin-bottom: 100px;
+}
+
+form {
+    display: block;
+}
+
+.card {
+    height: 90%;
+}
+
+/* Footer de la paginas */
+footer {
+    background-color: $violeta;
+    img {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    div {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        font-size: medium;
+        text-align: center;
+    }
+}
+
+.logofooter {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+

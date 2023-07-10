@@ -1,0 +1,17 @@
+#seccion1home {
+    color: $blanco;
+    background-image: linear-gradient(
+        rgba(156, 47, 208, 50%),
+        rgba(156, 47, 208, 50%)
+    ), url(../img/Diseño\ sin\ título\ \(3\)\ 2\ \(1\).jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    @include seccion1;
+}
+
+.seccion2home {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

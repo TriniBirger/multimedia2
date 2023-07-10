@@ -1,0 +1,176 @@
+@charset "UTF-8";
+#seccion1desayuno {
+  color: white;
+  background-image: url(../img/Diseño\ sin\ título\ \(5\)\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 300px;
+}
+
+.seccion2desy {
+  text-align: center;
+}
+
+#seccion1donahoy {
+  color: white;
+  background-image: url(../img/Dona\ hoy\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 300px;
+}
+
+.seccion2dona {
+  text-align: center;
+}
+
+#seccion1contact {
+  color: white;
+  background-image: url(../img/contacto\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 300px;
+}
+
+.seccion2cont {
+  text-align: center;
+}
+
+#seccion1home {
+  color: white;
+  background-image: linear-gradient(rgba(156, 47, 208, 0.5), rgba(156, 47, 208, 0.5)), url(../img/Diseño\ sin\ título\ \(3\)\ 2\ \(1\).jpg);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 300px;
+}
+
+.seccion2home {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #9C2FD0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+}
+header a img {
+  width: 100px;
+  margin: 20%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-right: 5%;
+  font-weight: bold;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-flex;
+  padding: 0px 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Todos las secciones de las paginas */
+.title1 {
+  color: white;
+}
+
+.title3 {
+  color: #9C2FD0;
+}
+
+.title4 {
+  color: white;
+  background-color: #F49A18;
+  height: 100px;
+  text-align: center;
+}
+
+.divsection2 {
+  background-color: rgba(156, 47, 208, 0.26);
+  display: inline-block;
+}
+.divsection2 img {
+  margin-top: 10px;
+  width: 90%;
+}
+
+.divseccion3 {
+  background-color: #D9D9D9;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+.divseccion3 img {
+  width: 200px;
+  padding: 30px;
+}
+
+.aseccion1 {
+  font-weight: bold;
+}
+
+.divinputs {
+  margin-bottom: 100px;
+}
+
+form {
+  display: block;
+}
+
+.card {
+  height: 90%;
+}
+
+/* Footer de la paginas */
+footer {
+  background-color: #9C2FD0;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+}
+footer h1 {
+  font-size: medium;
+  text-align: center;
+}
+
+.logofooter {
+  width: 100px;
+  margin: auto;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
